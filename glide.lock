@@ -1,0 +1,16 @@
+hash: 62485fe6290eedab08db02b0935bf41a55268502369de208a4e104a34fdf78ae
+updated: 2017-07-06T01:09:04.171177079+08:00
+imports:
+- name: github.com/facebookgo/atomicfile
+  version: 2de1f203e7d5e386a6833233882782932729f27e
+- name: github.com/facebookgo/pidfile
+  version: f242e2999868dcd267a2b86e49ce1f9cf9e15b16
+- name: github.com/google/uuid
+  version: 064e2069ce9c359c118179501254f67d7d37ba24
+- name: github.com/satori/go.uuid
+  version: 879c5887cd475cd7864858769793b2ceb0d44feb
+- name: github.com/streadway/amqp
+  version: 27859d32540aebd2e5befa52dc59ae8e6a0132b6
+- name: gopkg.in/yaml.v2
+  version: cd8b52f8269e0feb286dfeef29f8fe4d5b397e0b
+testImports: []
