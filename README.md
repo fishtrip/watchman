@@ -27,10 +27,15 @@ Usage of ./watchman:
 # kill -QUIT $PID
 ```
 
-# config 配置文件
+# config 配置
 ## ENV 文件
 使用前需要先加载 env，样例见 config/env.example.yml，主要是 RabbitMQ 的配置。
 
 ## 队列配置文件
 样例见 config/queues.example.yml, 主要是注明消息队列的配置以及回调地址和参数。
 
+# Author 作者
+大鱼（fishtrip.cn) 是国内领先的全球民宿平台，给用户提供全球特色的民宿、客栈、别墅等非标准住宿。目前公司的技术栈以 ruby 和 Java 为主，部分中间件采用 golang 编写。
+
+# Licence 许可
+MIT Licence
