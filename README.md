@@ -5,14 +5,14 @@
 * 优雅关闭。通过对信号的监听，整个程序可以在不丢消息的情况下优雅关闭，利于配置更改和程序重启。这个在生产环境非常重要。
 * 自动重连。当 RabbitMQ 服务无法连接的时候，应用可以自动重连。
 
-# Usage
+# Usage 使用
 
 ## Build
 go build -o watchman
 
 ## Usage
-watchman -h
 
+```
 Usage of ./watchman:
   -c string
         config file path (default "config/queues.example.yml")
@@ -20,6 +20,12 @@ Usage of ./watchman:
         logging file, default STDOUT
   -pidfile string
         If specified, write pid to file.
+```
+
+优雅关闭：
+```
+# kill -QUIT $PID
+```
 
 # config 配置文件
 ## ENV 文件
